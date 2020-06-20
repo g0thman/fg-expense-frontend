@@ -95,7 +95,7 @@ header .menu-toggle{
     color: black;
 }
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 1100px){
 .logo{
     margin-top: 20px;
     margin-left: 10px;
@@ -114,6 +114,9 @@ header ul{
     background: #ebf1ef;
     max-height: 0px;
     overflow: hidden;
+}
+.nav{
+    height: 100vh;
 }
 .showing{
     max-height: 100em;
@@ -135,6 +138,10 @@ header .menu-toggle{
     position: absolute;
     right: 20px;
     top: 35px;
+}
+.about-us li{
+    text-align: left;
+    padding-left: 50px;
 }
 =======
 @keyframes Slide_right{
@@ -228,7 +235,7 @@ header .menu-toggle{
     font-weight: bold;
 }
 
-@media only screen and (max-width: 750px){
+@media only screen and (max-width: 1100px){
 .logo{
     margin-top: 20px;
 margin-left: 10px;
@@ -249,7 +256,11 @@ header ul{
     overflow: hidden;
 }
 .showing{
-    max-height: 100em;
+    position:absolute;
+    top:100%;
+    left:0;
+    right:0;
+    z-index:1;
 }
 header ul li{
     width: 100%;
